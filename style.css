@@ -24,3 +24,6 @@ table.center {
 .cite {
   font-size: 70%;
 }
+.right .github-fork-ribbon {
+    background-color: black;
+}
