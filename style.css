@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+P {
+  text-align: justify;
+}
+P.center {
+  text-align: center;
+}
+li {
+  padding-bottom: 10px;
+  text-align: justify;
+}
+table li {
+  text-align: left;
+}
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+.cite {
+  font-size: 70%;
+}
