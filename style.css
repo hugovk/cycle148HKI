@@ -30,3 +30,44 @@ table.center {
 .right .github-fork-ribbon {
     background-color: black;
 }
+
+/* https://github.com/sindresorhus/github-markdown-css/issues/6 */
+.octicon {
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.octicon-link:before { content: '#'; }
+
+.octicon-link {
+    display: none;
+    color: #000;
+    vertical-align: top;
+}
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+    height: 1em;
+    padding-left: 8px;
+    margin-top: 5px;
+    margin-left: -28px;
+    line-height: 1;
+    text-decoration: none;
+}
+h1:hover .octicon-link,
+h2:hover .octicon-link,
+h3:hover .octicon-link,
+h4:hover .octicon-link,
+h5:hover .octicon-link,
+h6:hover .octicon-link {
+    display: inline-block;
+}
